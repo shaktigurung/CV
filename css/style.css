@@ -17,6 +17,9 @@ body{
     font-family: 'Lobster', helvetica, sans-serif;
     margin-bottom: 3px;
 }
+.container ul li a {
+	color: #b8b63e;
+}
 
 
 /* Graph Timeline*/
