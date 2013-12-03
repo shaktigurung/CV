@@ -21,7 +21,47 @@ body{
 	color: #b8b63e;
 }
 
-
+/*Ribbon*/
+.container h4
+{ 
+	font-family: 'Lobster', helvetica, sans-serif;
+	position: relative;
+	width:300px;
+	font-size: 1.5em;
+	/*font-weight: bold;*/
+	padding: 10px 20px 6px 70px;
+	margin: 30px 10px 20px -20px;
+	color:#211e1e;
+	background-color: #999;
+	text-shadow: 0px 1px 2px #bbb;
+	-webkit-box-shadow: 0px 2px 4px #888;
+	-moz-box-shadow: 0px 2px 4px #888;
+	box-shadow: 0px 2px 4px #888;
+}
+.container h4:after
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0px;
+	top: 100%;
+	border-width: 5px 10px;
+	border-style: solid;
+	border-color: #666 #666 transparent transparent;
+}
+.container h4:before
+{
+	content: ' ';
+	position: absolute;
+	width: 30px;
+	height: 0;
+	left: -30px;
+	top: 12px;
+	border-width: 20px 10px;
+	border-style: solid;
+	border-color: #999 #999 #999 transparent;
+}*/
 /* Graph Timeline*/
 .graph{
 	width: 100%;
